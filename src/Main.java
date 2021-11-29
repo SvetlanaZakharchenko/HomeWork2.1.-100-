@@ -3,10 +3,9 @@ public class Main {
         int initialAmount = 100;
         int replenishmentAmount = 1100;
         int totalAmount = initialAmount + replenishmentAmount;
-        boolean isReplenished = true;
 
         int bonusRubles;
-         if (isReplenished && replenishmentAmount > 1000) {
+         if (replenishmentAmount > 1000) {
              bonusRubles = replenishmentAmount / 100;
          } else {
              bonusRubles = 0;
